@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1200px;
+    height: 560px;
+    background-image: linear-gradient(rgba(80, 0, 0, 0.901),rgba(80, 0, 0, 0.211)), url(aligator.jpg);
+    background-size: cover;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: #ffffff55;
+    margin: 20px auto;
+    border-radius: 8px;
+    top: 20px;
+    position: relative;
+}
+
+#result {
+    height: 120px;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+#history{
+    height: 20px;
+    text-align: right;
+    margin: 0px 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(255, 166, 0);
+}
+
+#output{
+    height: 60px;
+    text-align: right;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: rgb(255, 247, 0);
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 25px;
+    border: 0;
+}
+
+.number, .empty{
+    background-color: #ffffff00;
+}
+
+.operator, .number{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 18px;
+}
+
+button:nth-child(4){
+    font-size: 22px;
+    background-color: #ff8000;
+}
+
+button:nth-child(8){
+    font-size: 22px;
+    background-color: #aaff00;
+}
+
+button:nth-child(12){
+    font-size: 22px;
+    background-color: #ff00a6;
+}
+
+button:nth-child(16){
+    font-size: 22px;
+    background-color: #00d9ff;
+}
+
+button:nth-child(20){
+    font-size: 22px;
+    background-color: #ffe600;
+}
